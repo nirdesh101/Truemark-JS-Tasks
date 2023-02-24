@@ -1,0 +1,45 @@
+*{
+    margin: o;
+    padding: o;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: black;
+    height: 100vh;
+    background-image: linear-gradient(to bottom, #011023 0%, #0f3756 100%);
+}
+
+i{
+    position: absolute;
+    height: 100px;
+    background-color: #acdbde;
+    opacity: 0.4;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    animation: animate 6s linear infinite;
+    /* display: none; */
+}
+
+@keyframes animate {
+    0%{
+        transform: translateY(-100px);
+    }
+    100%{
+        transform: translateY(calc(200vh + 600px));
+    }
+}
+
+button{
+    padding: 1rem 3.5rem;
+    background: linear-gradient(-45deg, #094860, #0a5444, #0a455d, #075040);
+    color: whitesmoke;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    font-size: 1rem;
+    font-weight: 900;
+    height: 4rem;
+    margin-top:20px;
+    margin-left: 44%;
+}
