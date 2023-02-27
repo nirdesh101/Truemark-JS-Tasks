@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.slide img{
+    height: 690px;
+    width: 80%;
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+
+@keyframes fade {
+    from {opacity: .4} 
+    to {opacity: 1}
+}
+
+.slide-container{
+    position: relative;
+    width: 100%;
+}
+.arrow {
+    cursor: pointer;
+    position: absolute;
+    top: 42%;
+    color: white;
+    padding: 0px 10px;
+    border-radius: 5px;
+    font-size: 5rem;
+    font-weight: bolder;
+}
+
+.arrow:hover{
+    background-color: black;
+    opacity: 0.7;
+    transition: background-color 1.2s ease;
+}
+
+
+.next{
+    right: 145px;
+}
+
+.prev{
+    left: 145px;
+}
+
+.caption{
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+    position: absolute;
+    bottom: 0px;
+    width: 80%;
+    text-align: center;
+    background-color: black;
+    opacity: 0.65;
+    padding: 15px 0px;
+    text-align: center;
+    justify-content: center;
+    left: 144px;
+}
+
+.slide {
+    display: none;
+    justify-content: center;
+    text-align: center;
+    margin-top: 70px;
+}
