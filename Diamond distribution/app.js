@@ -1,4 +1,4 @@
-let diamondsArr = [1, 2, 3, 4, 5, 1, 2];
+let diamondsArr = [1, 2, 3, 4, 5];
 let sumOfArr = diamondsArr.reduce((a, b)=> a + b);     // sum of numbers in the given array
 let numberOfPerson = 3;     // number of person the diamond should be divided
 
@@ -33,10 +33,9 @@ if(sumOfArr % 3 == 0){   //     checking if the sum can be divided for given peo
     }
 
   }
+  arraySort();
+  diamondDivide();
 }
 else{
   console.log("diamonds can't be divided into 3 people") 
 }
-
-arraySort();
-diamondDivide();
