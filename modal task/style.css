@@ -1,10 +1,10 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-.container{
+.container {
     position: relative;
     height: 100vh;
     width: 100%;
@@ -13,82 +13,82 @@
     justify-content: center;
     background: #fff173;
     transition: 0.5s;
-    padding: 20px;
+    padding: 1.25rem;
 }
 
-.container .content{
+.container .content {
     position: relative;
-    max-width: 800px;
+    max-width: 50rem;
 }
 
-h2{
+h2 {
     font-weight: 700;
-    margin-bottom: 10px;
+    margin-bottom: .625rem;
     color: #333;
 }
 
-h1{
-    font-size: 45px;
-    margin-bottom: 10px;
+h1 {
+    font-size: 2.8125rem;
+    margin-bottom: .625rem;
 }
 
-a{
+a {
     position: relative;
-    padding: 10px 30px;
+    padding: .625rem 1.875rem;
     display: inline-block;
     text-decoration: none;
-    margin-top: 20px;
+    margin-top: 1.25rem;
     color:#fff;
     background-color: #111;
-    font-size: 20px;
-    border-radius: 10px;
+    font-size: 1.25rem;
+    border-radius: .625rem;
     transition: 0.5s;
 }
 
-a:hover{
+a:hover {
     background-color: rgb(71, 77, 77);
 }
 
-.closeBtn{
-    font-size: 30px;
-    padding: 5px 10px;
+.closeBtn {
+    font-size: 1.875rem;
+    padding: .3125rem .625rem;
     border: 0px;
     background-color: white;
     position: absolute;
-    top: 5px;
-    right: 5px;
+    top: .3125rem;
+    right: .3125rem;
     cursor: pointer;
     transition: 0.5s;
 }
 
-.closeBtn:hover{
+.closeBtn:hover {
     color: red;
 }
 
 
-.container#blur.active{
-    filter: blur(10px);
+.container#blur.active {
+    filter: blur(.625rem);
     pointer-events: none;
     user-select: none;
 }
 
-#modal{
+#modal {
     position: fixed;
     top: 40%;
     left: 50%;
     transform: translate(-50%, -50%);
-    width: 600px;
-    padding: 30px;
+    width: 37.5rem;
+    padding: 1.875rem;
     background: #fff;
     opacity: 0;
     transition: 0.5s;
 }
-#modal.active{
+#modal.active {
     top: 50%;
     opacity: 1;
     transition: 0.5s;
 }
 
-p{
-    font-size: 20px;
+p {
+    font-size: 1.25rem;
 }

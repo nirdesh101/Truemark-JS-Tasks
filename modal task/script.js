@@ -1,6 +1,6 @@
 function toggle(){
-    let blur = document.getElementById("blur");
+    const blur = document.getElementById("blur");
     blur.classList.toggle('active')
-    let modal = document.getElementById("modal");
+    const modal = document.getElementById("modal");
     modal.classList.toggle('active')
 }
