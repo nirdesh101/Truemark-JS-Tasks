@@ -55,7 +55,6 @@ class Slider {
         this.replaceImage(this.slide[this.index]);
     }
 
-
     prevSlider = () => {
         this.index--;
         if (this.index < 0) {
@@ -85,11 +84,4 @@ class Slider {
     }
 }
 
-
-// function showControls(){
-//     const controls = document.getElementById("controls");
-//     controls.style.display = "block";
-// }
-
 const slider = new Slider();
-
