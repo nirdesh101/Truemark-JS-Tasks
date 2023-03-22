@@ -17,4 +17,3 @@ function fact(n) {
   }
 
  console.log(sum(20))
-  
