@@ -26,8 +26,8 @@
     position: absolute;
     top: 42%;
     color: white;
-    padding: 0px 10px;
-    border-radius: 5px;
+    padding: 0 .625rem;
+    border-radius: .3125rem;
     font-size: 5rem;
     font-weight: bolder;
 }
@@ -40,32 +40,32 @@
 
 
 .next {
-    right: 145px;
+    right: 9.0625rem;
 }
 
 .prev {
-    left: 145px;
+    left: 9.0625rem;
 }
 
 .caption {
     color: white;
-    font-size: 30px;
+    font-size: 1.875rem;
     font-weight: bold;
     position: absolute;
-    bottom: 0px;
+    bottom: 0;
     width: 80%;
     text-align: center;
     background-color: black;
     opacity: 0.65;
-    padding: 15px 0px;
+    padding: .9375rem 0;
     text-align: center;
     justify-content: center;
-    left: 144px;
+    left: 9rem;
 }
 
 .slide {
     display: none;
     justify-content: center;
     text-align: center;
-    margin-top: 70px;
+    margin-top: 4.375rem;
 }
