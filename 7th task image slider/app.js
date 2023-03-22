@@ -27,3 +27,54 @@ function slideshow(num) {
 
     slides[num].style.display = "block"; 
 }
+
+
+// 1 OOP FORMAT
+
+// class Slideshow {
+//     constructor() {
+//       this.photo = 0;
+//       this.slides = document.getElementsByClassName('slide');
+//     }
+  
+//     showSlide(num) {
+//       if(num === this.slides.length){
+//         this.photo = 0;
+//         num = 0;
+//       }
+//       if(num < 0){
+//         this.photo = this.slides.length - 1;
+//         num = this.photo;
+//       }
+  
+//       for(let i = 0; i < this.slides.length; i++){
+//         this.slides[i].style.display = "none";
+//       }
+  
+//       this.slides[num].style.display = "block";
+//       this.photo = num;
+//     }
+  
+//     nextSlide() {
+//       this.showSlide(this.photo + 1);
+//     }
+  
+//     prevSlide() {
+//       this.showSlide(this.photo - 1);
+//     }
+//   }
+  
+//   const slideshow = new Slideshow();
+  
+//   // Attach event listeners to arrow buttons
+//   const arrowLeft = document.getElementById('arrow-left');
+//   const arrowRight = document.getElementById('arrow-right');
+  
+//   arrowLeft.addEventListener('click', () => {
+//     slideshow.prevSlide();
+//   });
+  
+//   arrowRight.addEventListener('click', () => {
+//     slideshow.nextSlide();
+//   });
+  
