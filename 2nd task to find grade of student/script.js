@@ -18,11 +18,6 @@ else if(marks<40) {
     document.write("you're failed");
 }
 
-
-
-
-
-
 //ARRAY METHOD
 
 let scores = [30, 66, 96, 56, 67, 45, 88, 76, 24, 69]
@@ -44,11 +39,6 @@ for (let i = 0; i < scores.length; i++) {
     console.log(" failed")
   }
 }
-
-
-
-
-
 
 //Function method
 
@@ -74,10 +64,3 @@ function score (marks){
     }
 }
 score(90);
-
-
-
-
-
-
-
