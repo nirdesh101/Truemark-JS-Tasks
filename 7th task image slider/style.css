@@ -5,7 +5,7 @@
 }
 
 .slide img {
-    height: 690px;
+    height: 43.125rem;
     width: 80%;
     animation-name: fade;
     animation-duration: 1.5s;
@@ -26,7 +26,7 @@
     position: absolute;
     top: 42%;
     color: white;
-    padding: 0 .625rem;
+    padding: 0rem .625rem;
     border-radius: .3125rem;
     font-size: 5rem;
     font-weight: bolder;
@@ -38,12 +38,11 @@
     transition: background-color 1.2s ease;
 }
 
-
-.next {
+.next{
     right: 9.0625rem;
 }
 
-.prev {
+.prev{
     left: 9.0625rem;
 }
 

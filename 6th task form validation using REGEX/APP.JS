@@ -20,7 +20,6 @@ else{
     return false
 }
 
-
 if(nameCheck.test(middleName)){
     document.getElementById('middleerror').innerHTML = "";
 }
@@ -28,7 +27,6 @@ else{
     document.getElementById('middleerror').innerHTML = " ** Enter a valid middle name";
     return false
 }
-
 
 if(nameCheck.test(lastName)){
 document.getElementById('lasterror').innerHTML = "";
@@ -38,8 +36,6 @@ document.getElementById('lasterror').innerHTML = " ** Enter a valid last name";
 return false
 }
 
-
-
 if(emailCheck.test(email)){
     document.getElementById('emailerror').innerHTML = "";
 }
@@ -47,7 +43,6 @@ else{
     document.getElementById('emailerror').innerHTML = " ** Enter a valid email";
     return false
 }
-
 
 if(numberCheck.test(number)){
     document.getElementById('phoneerror').innerHTML = "";
@@ -57,8 +52,6 @@ else{
     return false
 }
 
-
-
 if(zipCheck.test(zip)){
     document.getElementById('ziperror').innerHTML = "";
 }
@@ -66,6 +59,4 @@ else{
     document.getElementById('ziperror').innerHTML = " ** Enter a valid zip code";
     return false
 }
-
 }
-
