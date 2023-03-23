@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 
-.slide img{
+.slide img {
     height: 43.125rem;
     width: 80%;
     animation-name: fade;
