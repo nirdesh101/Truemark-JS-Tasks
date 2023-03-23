@@ -1,0 +1,23 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#prevBtn , #nextBtn {
+    position: absolute;
+    top: 32rem;
+    cursor: pointer;
+}
+
+#prevBtn { 
+    left: 26.5rem;
+}
+
+#nextBtn {  
+    right: 26.5rem;
+}
+
+#prevBtn:hover,#nextBtn:hover  { 
+   color: rgb(151, 136, 117);
+}
