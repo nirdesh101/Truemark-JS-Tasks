@@ -20,7 +20,7 @@ else if(marks<40) {
 
 //ARRAY METHOD
 
-let scores = [30, 66, 96, 56, 67, 45, 88, 76, 24, 69]
+const scores = [30, 66, 96, 56, 67, 45, 88, 76, 24, 69]
 
 for (let i = 0; i < scores.length; i++) {
   if (scores[i] >= 80) {
