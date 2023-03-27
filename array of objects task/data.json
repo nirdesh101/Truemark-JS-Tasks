@@ -1,0 +1,186 @@
+ [
+    {
+    "id": 1, 
+    "Category": "Electronics",
+    "product": [
+      {
+        "id": 1.1,
+        "name": "Iphone",
+        "price": 220000,
+        "imageUrl": "https://www.apple.com/newsroom/images/product/iphone/standard/Apple-iPhone-14-Pro-iPhone-14-Pro-Max-deep-purple-220907_inline.jpg.large.jpg"
+      },
+      {
+        "id" : 1.2,
+        "name" : "Ipad",
+        "price" : 130000,
+        "imageUrl" : "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/ipad-pro-finish-select-202212-11inch-space-gray-wifi_AV1?wid=5120&hei=2880&fmt=jpeg&qlt=90&.v=1670865949566" 
+      },
+      {
+        "id" : 1.3,
+        "name" : "Laptop",
+        "price" : 150000,
+        "imageUrl" : "https://www.digitaltrends.com/wp-content/uploads/2021/08/dell-xps-15-oled-2021-laptop.jpg?p=1"
+      },
+      {
+        "id" : 1.4,
+        "name" : "Kindle",
+        "price" : 25000,
+        "imageUrl" : "https://media.wired.com/photos/5b05a0a00864e3415cb90de1/master/w_1962,h_1471,c_limit/Amazon-Kindle-Paperwhite-SOURCE-Amazon.jpg"
+      },
+      {
+        "id" : 1.5,
+        "name" : "Monitor",
+        "price" : 75000,
+        "imageUrl" : "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6115/6115611_rd.jpg"
+      }
+    ]
+},
+
+{
+    "id": 2,
+    "Category": "Clothing",
+    "product": [
+      {
+        "id": 2.1,
+        "name": "Pants",
+        "price": 2500,
+        "imageUrl": "https://cdn.shopify.com/s/files/1/0186/1574/products/JE099236_BL42.jpg?v=1662163623"
+      },
+      {
+        "id" : 2.2,
+        "name" : "T-shirt",
+        "price" : 1600,
+        "imageUrl" : "http://johnlewis.scene7.com/is/image/JohnLewis/006266725?" 
+      },
+      {
+        "id" : 2.3,
+        "name" : "Sweatshirt",
+        "price" : 2000,
+        "imageUrl" : "https://www.etsy.com/img/35147713/r/il/83f5e8/4101112262/il_fullxfull.4101112262_2y0z.jpg"
+      },
+      {
+        "id" : 2.4,
+        "name" : "Joggers",
+        "price" : 2200,
+        "imageUrl" : "https://lp2.hm.com/hmgoepprod?set=format%5Bwebp%5D%2Cquality%5B79%5D%2Csource%5B%2F89%2F44%2F8944fa67a9d317425e18b7718bfaf0df00f5e811.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5Bkids_boy8y_trousers_pullon%5D%2Ctype%5BDESCRIPTIVESTILLLIFE%5D%2Cres%5Bm%5D%2Chmver%5B2%5D&call=url%5Bfile%3A%2Fproduct%2Fmain%5D"
+      },
+      {
+        "id" : 2.5,
+        "name" : "Shoes",
+        "price" : 6800,
+        "imageUrl" : "https://sneakernews.com/wp-content/uploads/2022/01/Air-Jordan-1-Zoom-CMFT-CT0979-610-4.jpg"
+      }
+    ]
+},
+
+{    
+    "id": 3,
+    "Category": "Furniture",
+    "product": [
+      {
+        "id": 3.1,
+        "name": "Table",
+        "price": 15000,
+        "imageUrl": "https://cdn.trendir.com/wp-content/uploads/old/archives/schulte-design-pavos-computer-table-for-sitting-and-standing-5.jpg"
+      },
+      {
+        "id" : 3.2,
+        "name" : "Chair",
+        "price" : 6000,
+        "imageUrl" : "https://i5.walmartimages.com/asr/f7b0bdd7-e6e3-4622-a292-f8e7e996d2db.3ec5ecea2ef0a9d9d6715abf44a145f6.png" 
+      },
+      {
+        "id" : 3.3,
+        "name" : "Cupboard",
+        "price" : 30000,
+        "imageUrl" : "https://ii3.pepperfry.com/media/catalog/product/l/i/494x544/linden-4-door-wardrobe-by-spacewood-linden-4-door-wardrobe-by-spacewood-nhyyts.jpg"
+      },
+      {
+        "id" : 3.4,
+        "name" : "Bed",
+        "price" : 25000,
+        "imageUrl" : "https://www.urbanwood.in/image/cache/catalog/Beds/babson-new/walnut/walnut-1-735x507.jpg"
+      },
+      {
+        "id" : 3.5,
+        "name" : "Dressing Table",
+        "price" : 35000,
+        "imageUrl" : "https://i.pinimg.com/736x/05/7b/b3/057bb37786bb5177e6410f3b1f553050.jpg"
+      }
+    ]
+},
+
+{
+    "id": 4,
+    "Category": "Food",
+    "product": [
+      {
+        "id": 4.1,
+        "name": "Momo",
+        "price": 230,
+        "imageUrl": "https://di-cdn.sfo2.digitaloceanspaces.com/product_images/1761/533_3a57f65ed8a537d5a8a2f25fa64e6d31.jpg"
+      },
+      {
+        "id" : 4.2,
+        "name" : "Burger",
+        "price" : 450,
+        "imageUrl" : "https://assets.bonappetit.com/photos/57aceacc1b3340441497532d/1:1/w_2560%2Cc_limit/double-rl-ranch-burger.jpg" 
+      },
+      {
+        "id" : 4.3,
+        "name" : "Skewers",
+        "price" : 1000,
+        "imageUrl" : "https://www.seriouseats.com/thmb/rIkBVYp36hY6O5AIFn9JelaewzU=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/__opt__aboutcom__coeus__resources__content_migration__serious_eats__seriouseats.com__2019__07__20190618-grilled-al-pastor-beef-skewers-vicky-wasik-9-1500x1125-20d46644c040417980747c54298bcf4e.jpg"
+      },
+      {
+        "id" : 4.4,
+        "name" : "Pizza",
+        "price" : 650,
+        "imageUrl" : "https://www.riddle.com/imageservice/q_80,f_auto,c_fill,w_960,h_540/dfqkpr5h6hguv0ryt5hc"
+      },
+      {
+        "id" : 4.5,
+        "name" : "Wraps",
+        "price" : 400,
+        "imageUrl" : "https://dinnersdishesanddesserts.com/wp-content/uploads/2018/07/Crunchy-Southwester-Chicken-Wrap-square.jpg"
+      }
+    ]
+},
+
+{
+    "id": 5,
+    "Category": "Cars",
+    "product": [
+      {
+        "id": 5.1,
+        "name": "Mercedes G-class",
+        "price": 40000000,
+        "imageUrl": "https://f7432d8eadcf865aa9d9-9c672a3a4ecaaacdf2fee3b3e6fd2716.ssl.cf3.rackcdn.com/C2299/U979/IMG_77247-large.jpg"
+      },
+      {
+        "id" : 5.2,
+        "name" : "Ford Raptor",
+        "price" : 15000000,
+        "imageUrl" : "https://i.ytimg.com/vi/jVo6PcBzBvA/maxresdefault.jpg" 
+      },
+      {
+        "id" : 5.3,
+        "name" : "Jeep Wrangler",
+        "price" : 28000000,
+        "imageUrl" : "https://www.forbes.com/wheels/wp-content/uploads/2022/10/2023JeepWranglerRubiconFarOut_SEO.png"
+      },
+      {
+        "id" : 5.4,
+        "name" : "Land Rover Discovery",
+        "price" : 43000000,
+        "imageUrl" : "https://lkswebprdcdnep4.azureedge.net/api/image/stock/c6b27e02-f4d5-498b-b356-0dab6b787b6b?w=1200"
+      },
+      {
+        "id" : 5.5,
+        "name" : "Rolls Royce Phantom",
+        "price" : 20000000,
+        "imageUrl" : "https://i.insider.com/57a8e421ce38f288008b56e5?width=1200&format=jpeg"
+      }
+    ]
+}
+]

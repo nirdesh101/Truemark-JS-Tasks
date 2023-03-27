@@ -6,10 +6,30 @@
     font-family: 'Alkatra', cursive;
 }
 
-.product {
-    cursor: pointer;
+#productDiv button {
+    display: block;
+    width: 100%;
+    padding: 5px;
+    margin-top: 10px;
+    border: 0px;
+    border-radius: 5px;
+    font-size: 1.2rem;
 }
 
-.product :hover {
-    background-color: gray;
+#productDiv button:hover {
+    background-color: rgb(226, 100, 100);
+}
+
+#productDiv {
+    margin-top: 30px;
+}
+
+img {
+    width: 90%;
+    height: 100%;
+    margin-left: 35px;
+}
+
+#price {
+    color: blue;
 }
