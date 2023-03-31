@@ -29,9 +29,9 @@ function showProducts(event) {
     productName.innerHTML = " ";
     productDiv.innerHTML =" ";
     const currentValue = event.target.value;
-    const productslists = products.filter(item => 
+    const productsLists = products.filter(item => 
         item.Category == currentValue);
-        productslists[0].product.map(item =>{
+        productsLists[0].product.map(item =>{
             const Button = document.createElement("button");
             Button.innerHTML = item.name;
             productDiv.appendChild(Button);

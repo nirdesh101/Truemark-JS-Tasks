@@ -1,0 +1,92 @@
+#maze {
+    display: flex;
+    flex-wrap: wrap;
+    width: 800px;
+    height: 150px;
+    margin: 10px auto;
+  }
+  
+  .cell {
+    width: 40px;
+    height: 40px;
+    border: 0.5px solid black;
+    box-sizing: border-box;
+    border-radius: 2px;
+  }
+  
+  .wall {
+    background-color: rgb(103, 27, 27);
+    opacity: 0.3;
+  }
+  
+  .player {
+    background-color: orangered;
+    border-radius: 50%;
+  }
+  
+  .end {
+    background-color: green;
+  }
+
+  .keys {
+    background-color: goldenrod;
+  }
+
+ .red, .green {
+    height: 30px;
+    width: 90px;
+    border-radius: 10px;
+    border: none;
+  }
+
+  .index-head {
+    text-decoration: underline;
+  }
+
+  .green {
+    background: green;
+  }
+
+  .red {
+    background-color: orangered;
+    margin-top: 2px;
+  }
+
+  .description {
+    font-size: 1.5rem;
+    text-align: center;
+  }
+  
+  .index {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    letter-spacing: 5px;
+  }
+
+  span {
+    color: red;
+    text-decoration: underline;
+  }
+
+  @media only screen and (max-width: 768px) {
+    body {
+      background-color: lightblue;
+    }
+    .cell {
+      width: 20px;
+      height: 20px;
+      border: 0.5px solid black;
+      box-sizing: border-box;
+      border-radius: 1px;
+    }
+
+    #maze {
+      display: flex;
+      flex-wrap: wrap;
+      width: 400px;
+      height: 150px;
+      margin: 10px auto;
+    }
+  }
