@@ -1,17 +1,17 @@
 #maze {
     display: flex;
     flex-wrap: wrap;
-    width: 800px;
-    height: 150px;
-    margin: 10px auto;
+    width: 50rem;
+    height: 9.375rem;
+    margin: .625rem auto;
   }
   
   .cell {
-    width: 40px;
-    height: 40px;
-    border: 0.5px solid black;
+    width: 2.5rem;
+    height: 2.5rem;
+    border: .0313rem solid black;
     box-sizing: border-box;
-    border-radius: 2px;
+    border-radius: .125rem;
   }
   
   .wall {
@@ -33,9 +33,9 @@
   }
 
  .red, .green {
-    height: 30px;
-    width: 90px;
-    border-radius: 10px;
+    height: 1.875rem;
+    width: 5.625rem;
+    border-radius: .625rem;
     border: none;
   }
 
@@ -49,7 +49,7 @@
 
   .red {
     background-color: orangered;
-    margin-top: 2px;
+    margin-top: .125rem;
   }
 
   .description {
@@ -62,7 +62,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    letter-spacing: 5px;
+    letter-spacing: .3125rem;
   }
 
   span {
@@ -70,23 +70,23 @@
     text-decoration: underline;
   }
 
-  @media only screen and (max-width: 768px) {
+  @media only screen and (max-width: 48rem) {
     body {
       background-color: lightblue;
     }
     .cell {
-      width: 20px;
-      height: 20px;
-      border: 0.5px solid black;
+      width: 1.25rem;
+      height: 1.25rem;
+      border: .0313rem solid black;
       box-sizing: border-box;
-      border-radius: 1px;
+      border-radius: .0625rem;
     }
 
     #maze {
       display: flex;
       flex-wrap: wrap;
-      width: 400px;
-      height: 150px;
-      margin: 10px auto;
+      width: 25rem;
+      height: 9.375rem;
+      margin: .625rem auto;
     }
   }
