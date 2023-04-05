@@ -1,0 +1,93 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    min-height: 50rem;
+    background-color: black;
+}
+
+#game {
+    height: 31.25rem;
+    width: 24.375rem;
+    border: .3125rem solid rgb(53, 39, 39);
+    overflow: hidden;
+    margin: 1rem auto;
+    background-image: url(/images/tunnel_road.jpg);
+    background-size: contain;
+}
+
+#blueCar {
+    height: 6.25rem;
+    width: 8.125rem;
+    position: relative;
+    top: 0;
+    left: 0;
+    text-align: center;
+    animation: move 0.8s linear infinite;
+}
+
+#blueCar img {
+    height: 6.25rem;
+    width: 8.125rem;
+}
+
+
+#redCar {
+    height: 6.25rem;
+    width: 8.125rem;
+    top: 15.625rem;
+    left: 8.125rem;
+    transform: rotate(3.142rad);
+    text-align: center;
+    position: relative;
+}
+
+#redCar img {
+    height: 6.25rem;
+    width: 8.125rem;
+}
+
+
+@keyframes move {
+    0% {
+        top: 0rem;
+    }
+    100% {
+        top: 31.3125rem;
+    }
+}
+
+#result {
+    height: 11.5rem;
+    width: 25rem;
+    background-color: red;
+    margin: 1rem auto;
+    border-radius: .9375rem;
+    font-size: 1.375rem;
+    text-align: center;
+    color: white;
+    padding: 0.7rem;
+    display: none;
+} 
+
+h1 {
+    margin-bottom: 1rem;
+}
+
+button {
+    cursor: pointer;
+    padding: .625rem 1.875rem;
+    font-size: 1.2rem;
+    border-radius: .375rem;
+    background-color: black;
+    color: cyan;
+    border: 0;
+}
+
+#score {
+    font-size: 1.5rem;
+    color: goldenrod;
+    margin-bottom: 1rem;
+}
